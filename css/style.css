@@ -19,7 +19,12 @@ time, mark, audio, video {
 }
 
 #cabecalho{
-    margin-top: 3%;
+    background-color: darkblue;/*apenas para referencia css*/
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #inscreva{
@@ -29,7 +34,7 @@ time, mark, audio, video {
     padding: 0.5%;
     margin-top: 20px;
     margin-right: 2%;
-    display: flex;
+
 }
 
 #Entrar{
@@ -39,7 +44,11 @@ time, mark, audio, video {
     padding: 0.5%;
     margin-top: 20px;
     margin-right: 2%;
-    display: flex;
+}
+
+#texto{
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 h1{ /*monstros do challenge*/
@@ -49,5 +58,16 @@ h1{ /*monstros do challenge*/
 
 p{/*texto sobre a equipe e o projeto*/
     font-size: 2.5rem;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: aqua;
+}
+
+footer>ul>li>a{
+    text-decoration: none;
+    font-size: 2rem;
 }
 
