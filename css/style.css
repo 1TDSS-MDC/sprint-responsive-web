@@ -51,15 +51,19 @@ nav{
     margin-left: 5%;
 }
 
-h1{ /*monstros do challenge*/
+#texto h1{ /*monstros do challenge*/
     font-size:4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-p{/*texto sobre a equipe e o projeto*/
+#texto p{/*texto sobre a equipe e o projeto*/
     font-size: 2.5rem;
     margin-top: 2%;
     margin-left: 5%;
+}
+
+#Componentes{
+    background-color: darkblue;
 }
 
 footer{
