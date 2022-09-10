@@ -60,7 +60,7 @@ export const Register = () => {
                 </div>
 
                 <div className="container-login-form-btn">
-                    <button className="login">Registrar</button>
+                    <button className="login-form-btn">Registrar</button>
                 </div>
 
                 <div className="text-center">
