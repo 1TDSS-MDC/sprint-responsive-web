@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { LayoutComponents } from "../../components/LayoutComponents";
+import "../assets/global.css";
 
-export const Login = () => {
+export default function Login (){
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("")
     
