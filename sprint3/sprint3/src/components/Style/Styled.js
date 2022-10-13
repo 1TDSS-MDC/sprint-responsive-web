@@ -32,3 +32,13 @@ export const DivForm = styled.div`
     form textarea{height:110px;}
     form button{padding:10px; background: #222; color:#fff; width:40%;}
     h3{margin-left: 4px; padding:2px}`
+
+export const Img = styled.img`
+    width: 38%;
+    height: 48%;
+    background-color: transparent;
+    padding: 15px;
+    position: absolute;
+    bottom: 20%;
+    right: 32%;
+    `

@@ -7,7 +7,7 @@ import Perfil from "./components/pages/Perfil"
 import Vagas from "./components/pages/Vagas/PageVagas"
 import Login from "./components/pages/Login"
 import Register from "./components/pages/Register"
-import AddVaga from "./components/pages/addVagas/AddLista"
+import AddVagas from "./components/pages/Adicionar/Add"
 
 
 
@@ -34,7 +34,7 @@ export default function App(){
                     <Route path="/register" element={<Register />} />
                 </Routes>
                 <Routes>
-                    <Route path="/add" element={<AddVaga />} />
+                    <Route path="/add" element={<AddVagas/>} />
                 </Routes>
         </Router>
     )

@@ -1,12 +1,12 @@
-import AddVaga from "./AddLista";
 import Navbar from "../../layout/Navbar"
 import Footer from "../../layout/Footer"
+import AddVaga from "./AddLista";
 
-export default function Home() {
+export default function AddVagas() {
     return(
         <>
         <Navbar/>
-            <AddVaga/>  
+            <AddVaga/>
         <Footer/>
         </>
     );

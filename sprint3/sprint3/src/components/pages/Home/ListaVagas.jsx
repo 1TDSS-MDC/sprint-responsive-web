@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { DivLista } from '../../Style/Styled'
 import Vaga from './Vaga'
-import FormVagas from './FormVaga'
 
 export default function ListaDeVagas() {
 
@@ -11,14 +10,24 @@ export default function ListaDeVagas() {
         sobre:'A procura de candidatos que tenham fome de conhecimento' 
     },
     {
-        nome:'Full Stack Dev',
-        tipo:'junior',
-        sobre:'A procura de candidatos que tenham fome de conhecimento' 
+        nome:'Scrum Master',
+        tipo:'Experiente',
+        sobre:'A procura de um Scrum Master que possua facilidade em gerir equipes' 
     },
     {
         nome:'Front end dev',
         tipo:'Estagiário',
         sobre:'A procura de candidatos que tenham fome de conhecimento' 
+    },
+    {
+        nome:'Java Developer',
+        tipo:'Senior',
+        sobre:'Requesitos: 3 ano de experiencia em desenvolvimento java' 
+    },
+    {
+        nome:'Full Stack Dev',
+        tipo:'junior',
+        sobre:'A procura de candidatos capacitados, que suporte a demanda da empresa' 
     },
     
 ])

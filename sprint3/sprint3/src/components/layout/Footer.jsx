@@ -18,7 +18,7 @@ export default function Footer(){
                 </li>
             </ul>
            <p className={styles.copy_right}>
-            <span>MDC</span> &copy; 2022
+            <span>SOFTZ</span> &copy; 2022
             </p> 
         </footer>
     )

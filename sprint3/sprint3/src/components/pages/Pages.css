@@ -2,6 +2,7 @@ p{
     text-align: center;
     text-size-adjust: 18px;
     margin-bottom: 30%;
+    margin-top: 3%;
     font-size: 20px;
 }
 
@@ -13,4 +14,7 @@ p{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+}
+.img{
+    position: relative  123px 312;
 }
