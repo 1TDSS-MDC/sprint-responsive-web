@@ -35,9 +35,10 @@ export const DivForm = styled.div`
 
 export const Img = styled.img`
     width: 38%;
-    height: 48%;
+    height: 52%;
     background-color: transparent;
-    padding: 15px;
+    margin-top: 10%;
+    padding: 20px;
     position: absolute;
     bottom: 20%;
     right: 32%;
