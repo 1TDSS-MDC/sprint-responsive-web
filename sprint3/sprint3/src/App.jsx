@@ -1,12 +1,13 @@
 import React from "react"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
-import Home from "./components/pages/Home"
+import Home from "./components/pages/Home/Home"
 import Sobre from "./components/pages/Sobre"
 import Perfil from "./components/pages/Perfil"
-import Vagas from "./components/pages/Vagas"
+import Vagas from "./components/pages/Vagas/PageVagas"
 import Login from "./components/pages/Login"
 import Register from "./components/pages/Register"
+import AddVaga from "./components/pages/addVagas/AddLista"
 
 
 
@@ -31,6 +32,9 @@ export default function App(){
                 </Routes>
                 <Routes>
                     <Route path="/register" element={<Register />} />
+                </Routes>
+                <Routes>
+                    <Route path="/add" element={<AddVaga />} />
                 </Routes>
         </Router>
     )
