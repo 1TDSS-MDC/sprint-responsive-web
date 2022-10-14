@@ -1,6 +1,6 @@
 import React from 'react'
 import { DivTarefa } from '../../Style/Styled'
-import {FaDog as X } from 'react-icons/fa';
+import {FaTrashAlt as X } from 'react-icons/fa';
 
 export default function Vaga(props) {
   return (
