@@ -43,3 +43,48 @@ export const Img = styled.img`
     bottom: 20%;
     right: 32%;
     `
+export const ImgPerfil = styled.img`
+    width: 16%;
+    height: 24%;
+    float: left;
+    position: relative;
+    left: 8%;
+    bottom: 70px;
+`
+export const DivPerfil = styled.div`
+    background-color: #6a7dfe;
+    display: block;
+    width: 140%;
+    height 40%;
+    position: relative;
+    right:0%;
+    left:20%;
+    padding:80px;
+    margin-left: 0px;
+    margin-right: 0px;
+`
+export const H1Perfil = styled.h1`
+    position: relative;
+    top: 90px;
+    right:5%;
+    font-size: 2em;
+    
+    
+`
+export const Perfilh2 = styled.h2`
+    position: relative;
+    bottom: 80px;
+    left: 10%;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: left;
+
+`
+export const H1Vagas = styled.h1`
+    position: relative;
+    text-align: center;
+    top: 40px;
+    right:15%;
+    font-size: 2em;
+`

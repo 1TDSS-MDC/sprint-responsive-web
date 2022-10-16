@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Home from "./components/pages/Home/Home"
 import Sobre from "./components/pages/Sobre"
-import Perfil from "./components/pages/Perfil"
+import Perfil from "./components/pages/Perfil/Perfil"
 import Vagas from "./components/pages/Vagas/PageVagas"
 import Login from "./components/pages/Login"
 import Register from "./components/pages/Register"
